@@ -1,0 +1,266 @@
+/*Todo*/
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+/*Todos cuerpos*/
+body {
+    background-color: #B6C0F7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+}
+
+body>div {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+	align-items: center;
+	
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	overflow-y: auto;
+}
+
+/*Cuadro de formulario de inicio de sesion*/
+
+body #sesion{
+    background-color: cornflowerblue;
+    display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    align-content: flex-start;
+    height: 600px; 
+    width: 600px;
+    border-radius: 15px;
+}
+
+body #sesion h3{
+   font-size: 60px;
+   margin-bottom: 70px;
+
+}
+
+body #sesion form label{
+    
+    font-size: 30px;
+    padding-right: 250px;
+}
+
+body #sesion form input{
+    font-size: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+
+}
+
+/*PAgina menu*/
+
+#todo{
+    display: flex;
+    flex-direction: column;
+}
+
+/* menu */
+
+#menu ul {
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    list-style:none;
+    background-color: #BBBFC5;
+    padding:0px;
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:25px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    align-items: initial;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    margin: 50px;
+    background-color: white;
+    margin: 20px;
+    padding:0;
+    border-radius: 5px;
+    z-index: 21;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:#5b78a7;
+   }
+
+   /*Logo de pagina recepcionistas*/
+   body #logoCentral{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .tbl {
+       position: absolute;
+       text-align: center;
+       width: 100%;
+       height: 90%;
+   }
+
+   .tbl #Title{
+       font-size: 50px;
+   }
+
+   .tbl #Datos1 td input {
+       margin-top: 8%;
+       width: 60%;
+       border-radius: 5px;
+       padding: 15px;
+   }
+
+   .tbl #Combo{
+    width: 90%;
+    border-radius: 5px;
+    padding: 15px;
+   }
+
+  
+   .tbl ul{
+       text-align: left;
+       padding: 0px;
+       margin: 0px;
+   }
+
+  #mapas{
+       height: 200px;
+       width: 200px;
+       justify-content: left;
+       z-index:40;
+
+       }
+
+  .tbl #pagos td input {
+        width: 60%;
+        border-radius: 5px;
+        padding: 15px;
+    }
+ 
+    #cancelar{
+        background-color: red;
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    #cancelar:hover{
+        background-color: darkred;
+    }
+
+    #aceptar{
+        background-color: green;
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    #aceptar:hover{
+    background-color: darkcyan;
+    }
+
+    #Central{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    float: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    }
+
+    #Central h3{
+        position: relative;
+        font-size: 40px;
+    }
+
+    #Central img{
+        position: relative;
+        height: 100%;
+        width: 1000px;
+
+    }
+
+    #recep {
+        justify-content: center;
+    }
+
+    #recep h3{
+        text-align: center;
+    }
+
+    #recep form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;  
+    }
+
+    #recep h4{
+        font-size: 35px;
+    }
+
+    #Tablas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Tablas h3{
+        font-size: 35px;
+    }
+
+    #Tablas th{
+        background-color: rgb(56, 187, 56);
+        border: white solid 1px;
+    }
+    #Tablas td{
+        background-color: rgb(79, 233, 146);
+        border: white solid 1px;
+    }
+
+    #BtnHorizontal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #BtnHorizontal a{
+        margin: 25px;
+    }

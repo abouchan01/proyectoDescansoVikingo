@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <LINK REL=StyleSheet HREF="design.css" TYPE="text/css" MEDIA=screen>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de huesped</title>
+    
+</head>
+<body>
+      <table class="tbl">
+
+            <tr id = "Title">
+                <td colspan="4"><h3>Registro de Huesped</h3></td>
+            </tr>
+
+            <tr id="Datos1">
+                <td colspan="2"><input type="text" id="Huesped" name="Huesped" value="Nombre del huesped"><br></td>
+                <td colspan="2"><input type="email" id="email" name="email" value="Correo electronico"><br></td>
+            </tr>
+                <td>
+                    <a title="Mapas" href="mapa.html" target="_self"><h4>Mapa del hotel</h4><img src='Mapa.png' alt="Mapa" id = "mapas"></a>  
+                </td>
+            
+                <td>
+                    <select name="Habitacion" id="Combo">
+                        <option value="estandar1">Estandar 1</option>
+                        <option value="estandar2">Estandar 2</option>
+                        <option value="juniorSuite">Junior Suite</option>
+                    </select>
+                </td>
+            
+                <td>
+                    <label type="text">Numero de personas</label><br>
+                    <input type="text" id="Combo" name="people" value=""><br>
+                </td>
+
+                <td>
+                    <ul>
+                        <input type="radio" name="Descuento" value="1">Tercera Edad<br>
+                        <input type="radio" name="Descuento" value="2">Estudiante<br>  
+                        <input type="radio" name="Descuento" value="3">Estudiante UNAM
+                    </ul>
+                </td>
+            
+            </tr>
+          
+            <tr id = "pagos">
+          
+              <td>Datos de pago</td>
+          
+              <td><input type="text" id="tarj" name="tarj" value="No. de tarjeta"></td>
+          
+              <td><input type="password" id="cvv" name="cvv" value="CVV"></td>
+
+              <td><input type="date" id="numero" name="people" value=""></td>
+          
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td><a href="OpcionesRecepcionistas.html" target="self_" id= "cancelar">Cancelar</a></td>
+                <td><a href="index.html" target="self_" id= "aceptar" >Aceptar</a></td>
+            </tr>
+          
+          </table>
+    
+</body>
+</html>
